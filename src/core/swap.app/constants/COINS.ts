@@ -65,6 +65,13 @@ export const COIN_DATA = {
     model: COIN_MODEL.AB,
     precision: 18,
   },
+  'HPPY': {
+    ticker: 'HPPY',
+    name: 'HAPPY',
+    type: COIN_TYPE.ETH_TOKEN,
+    model: COIN_MODEL.AB,
+    precision: 18,
+  },
 }
 
 
