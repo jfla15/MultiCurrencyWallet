@@ -74,6 +74,15 @@ const initialState = {
       title: 'NEXT',
       icon: 'next',
       value: 'next',
+      fullTitle: 'happy',
+      addAssets: true,
+    }] : [],
+    //@ts-ignore
+    ...(!buildOpts.curEnabled || buildOpts.curEnabled.hppy) ? [{
+      name: 'HPPY',
+      title: 'HPPY',
+      icon: 'eth',
+      value: 'eth',
       fullTitle: 'next',
       addAssets: true,
     }] : [],
