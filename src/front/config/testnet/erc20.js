@@ -13,5 +13,10 @@ export default {
     address: '0x101848D5C5bBca18E6b4431eEdF6B95E9ADF82FA',
     decimals: 18,
     fullName: 'Weenus',
+  },
+  hppy: {
+    address: '0x493b5d1d2c6f25bdd365bf71af205fe219a0ab0c',
+    decimals: 18,
+    fullName: 'HAPPY',
   }
 }
